@@ -10,7 +10,7 @@ Installeer ZSH:
 Clone deze repo naar hidden directory:
 
 ```
-git clone https://github.com/bartvosman/dotfiles.git ~/.dotfiles
+git clone git@github.com:bartvosman/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 git submodule init
 git submodule update
