@@ -16,5 +16,9 @@ git submodule init
 git submodule update
 ```
 
-Maak symlinks van homedirectory naar repo:
-`~/.dotfiles/install.sh`
+### Stap 3: Install sylinks
+Run Install.sh
+
+```
+chmod +x ~/.dotfiles/install.sh && ~/.dotfiles/install.sh
+```
