@@ -13,5 +13,5 @@ alias dcd='cd ~/projects/dev-server/frontend && docker-compose down'
 alias c='clear'
 
 # Git
-alias git s='git status'
-alias git r='git reset --hard'
+alias gs='git status'
+alias gr='git reset --hard'
