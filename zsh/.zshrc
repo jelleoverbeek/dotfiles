@@ -6,8 +6,8 @@ alias ..='cd ../'
 alias ...='cd ../../'
 
 # Docker
-alias dcu='cd ~/projects/dev-server/frontend && docker-compose up'
-alias dcd='cd ~/projects/dev-server/frontend && docker-compose down'
+alias dcu='docker-compose up'
+alias dcd='docker-compose down'
 
 # Easy clear
 alias c='clear'
