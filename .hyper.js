@@ -116,7 +116,7 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-  	"hyperpower",
+  	// "hyperpower",
     "hyper-alt-click",
     "hyper-blink",  
     "gitrocket",  
