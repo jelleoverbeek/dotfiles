@@ -119,8 +119,8 @@ module.exports = {
   	// "hyperpower",
     "hyper-alt-click",
     "hyper-blink",  
-    "gitrocket",  
-    "space-pull",
+    // "gitrocket",  
+    // "space-pull",
 	//	THEMES
 	// "hyper-dracula",
 	// 'hyper-monokai-deluxe',
