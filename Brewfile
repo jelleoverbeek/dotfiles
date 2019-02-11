@@ -40,7 +40,7 @@ cask 'vlc'
 cask 'zeplin'
 
 # App store apps
-mas "Xcode", id: 497799835
+# mas "Xcode", id: 497799835
 
 # Fonts
 cask 'font-lato'
