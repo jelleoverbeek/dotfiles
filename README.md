@@ -2,12 +2,8 @@
 
 ## Install new device
 
-### Stap 1: ZSH Shell
-Installeer ZSH: 
-`brew install zsh`
-
-### Stap 2: Dotfiles installeren
-Clone deze repo naar hidden directory:
+### 1: Install repo
+Clone repo to hidden directory & run submodules
 
 ```
 git clone git@github.com:bartvosman/dotfiles.git ~/.dotfiles
@@ -16,7 +12,7 @@ git submodule init
 git submodule update
 ```
 
-### Stap 3: Install sylinks
+### 2: Run install bash
 Run Install.sh
 
 ```

@@ -1,3 +1,12 @@
+# Install Homebrew apps
+echo "⚪️ Downloading Homebrew"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+echo "⚪️ Installing brew apps"
+brew bundle
+
+echo "✅ homebrew done"
+
 # Symlink files
 echo "⚪️ Starting symlinking"
 
@@ -17,12 +26,3 @@ echo "⚪️ Change default shell to zsh, you password is required!"
 chsh -s /bin/zsh
 
 echo "✅ zsh completed"
-
-# Install Homebrew apps
-echo "⚪️ Downloading Homebrew"
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-echo "⚪️ Installing brew apps"
-brew bundle
-
-echo "✅ homebrew done"
