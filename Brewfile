@@ -5,10 +5,14 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 
 # Binaries
+brew 'composer'
 brew 'git'
-brew "node"
-brew "nvm"
-brew "mas"
+brew 'node'
+brew 'npm'
+brew 'nvm'
+brew 'mas'
+brew 'php'
+brew 'yarn'
 brew 'zsh'
 
 # Apps
@@ -21,7 +25,6 @@ cask 'cloudapp'
 cask 'docker'
 cask 'dropbox'
 cask 'firefox'
-cask 'franz'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
 cask 'imageoptim'
@@ -33,14 +36,16 @@ cask 'overkill'
 cask 'phpstorm'
 cask 'sequel-pro'
 cask 'sketch'
+cask 'slack'
 cask 'sourcetree'
 cask 'spotify'
 cask 'sublime-text'
 cask 'vlc'
+cask 'whatsapp'
 cask 'zeplin'
 
 # App store apps
-# mas "Xcode", id: 497799835
+# mas 'Xcode', id: 497799835
 
 # Fonts
 cask 'font-lato'
