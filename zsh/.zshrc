@@ -1,8 +1,8 @@
 # Alias a quick http server
 alias server="php -S localhost:8000"
 
-# Quick folder 
-alias ..='cd ../'    
+# Quick folder
+alias ..='cd ../'
 alias ...='cd ../../'
 
 # Docker
@@ -15,3 +15,8 @@ alias c='clear'
 # Git
 alias gs='git status'
 alias gr='git reset --hard'
+alias gc='git commit .'
+
+# NOS
+alias removebf='git checkout web/build/js/ src/Nos/Bundle/SiteBundle/Resources/public/css/'
+alias resetbf='git checkout develop web/build/js/ src/Nos/Bundle/SiteBundle/Resources/public/css/'
