@@ -16,7 +16,9 @@ alias c='clear'
 alias gs='git status'
 alias gr='git reset --hard'
 alias gc='git commit .'
+alias push='git push'
+alias pull='git pull'
 
 # NOS
 alias removebf='git checkout web/build/js/ src/Nos/Bundle/SiteBundle/Resources/public/css/'
-alias resetbf='git checkout develop web/build/js/ src/Nos/Bundle/SiteBundle/Resources/public/css/'
+alias resetbf='git checkout develop web/build/js/ src/Nos/Bundle/SiteBundle/Resources/public/css/ app/config/site/version.yml'
