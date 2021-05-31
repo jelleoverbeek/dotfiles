@@ -1,8 +1,9 @@
-# Dotfiles 
+# Dotfiles
 
 ## Install new device
 
 ### 1: Install repo
+
 Clone repo to hidden directory & run submodules
 
 ```
@@ -13,29 +14,30 @@ git submodule update
 ```
 
 ### 2: Run install bash
+
 Run Install.sh
 
 ```
 chmod +x ~/.dotfiles/install.sh && ~/.dotfiles/install.sh
 ```
 
+### 3: Run install-zsh bash
+
+Run Install-zsh.sh
+
+```
+chmod +x ~/.dotfiles/install-zsh.sh && ~/.dotfiles/install-zsh.sh
+```
 
 # Usefull commands
-Creat dock whitepsaces
-
-```
-defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock
-```
 
 Generate SSH key
 
 ```
-ssh-keygen -t rsa -b 4096 -C "bartvosman@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "overbeekjelle@gmail.com"
 ```
 
-
 Copy SSH key
-
 
 ```
 pbcopy < ~/.ssh/id_rsa.pub
