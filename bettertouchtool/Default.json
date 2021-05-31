@@ -1,0 +1,38 @@
+{
+  "BTTPresetName" : "Default",
+  "BTTPresetUUID" : "08909FC9-476E-4AAC-8CDE-2A70408036AB",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.figma.Desktop",
+      "BTTAppName" : "Figma",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Figma",
+      "BTTTriggers" : [
+
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}

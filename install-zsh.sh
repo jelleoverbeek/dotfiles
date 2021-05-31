@@ -1,3 +1,6 @@
+echo "⚪️ Installing zsh"
+brew cask install --appdir="/Applications" zsh
+
 # Symlink files
 echo "⚪️ Starting symlinking"
 
