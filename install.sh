@@ -7,8 +7,9 @@ brew bundle
 brew cask alfred link
 echo "✅ Homebrew done"
 
+read -p "⚠️ Open the App Store application and make sure you are logged in. Press enter to continue."
+
 echo "⚪️ Installing App Store apps"
-mas signin --dialog overbeekjelle@gmail.com
 mas install 937984704 #Amphetamine
 mas install 405772121 #LittleIpsum
 mas install 1176895641 #Spark
